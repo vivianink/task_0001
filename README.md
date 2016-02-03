@@ -1,1 +1,44 @@
-# task_0001
+## task_0001
+
+#笔记
+
+1. 页面实际内容宽度为980px，头部背景、大图、底部背景均为100%宽，当浏览器宽度低于980px时，页面宽度不变，允许出现横向滚动条。右上角的Github图标在浏览器低于980px时消失。
+实现如下：
+
+<code>
+<style>
+@media (max-width: 980px) {
+    html,
+    body {
+        width: 980px;
+        overflow: scroll;
+    }
+    .header_hd .github_icon {
+        display: none;
+    }
+}
+</style>
+</code>
+
+2. 透明渐变背景的应用：
+
+<code>
+<style>
+ div {
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, .7), rgba(255, 255, 255, .5), rgba(255, 255, 255, 0) 25%);
+ }
+</style>
+</code>
+参数说明：
+top: 为颜色开始的起点，例如 left top等；或者为颜色渐变的方向，例如 to right；此外还可设置为渐变方向角度，例如 45deg。
+     不设置起点或方向则会形成一个同心圆。
+颜色值： 可跟多个颜色，且可规定颜色的长度，例如 rgba(255, 255, 255, 0) 25% 
+
+参考资料：
+<p><a href="http://www.w3schools.com/css/css3_gradients.asp" target="_blank">CSS3 Gradients</a></p>
+<p><a href="http://www.75team.com/archives/174" target="_blank">跨浏览器背景色渐变和透明</a></p>
+
+#余留问题：
+
+1. IE中实现渐变透明背景
+

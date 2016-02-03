@@ -1,0 +1,87 @@
+@media (max-width: 980px) {
+    html,
+    body {
+        width: 980px;
+        overflow: scroll;
+    }
+    .header_hd .github_icon {
+        display: none;
+    }
+}
+body{
+    background-color: #eee;
+}
+.center_container {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+.header_hd {
+    position: relative;
+    height: 80px;
+    background-color: #522a5c;
+}
+.logo {
+    float: left;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+.header_nav {
+    float: right;
+    margin-top: 42px;
+}
+.nav li {
+    display: inline-block;
+}
+.nav a {
+    display: block;
+    padding: 3px 10px 0 10px;
+    text-align: center;
+    color: #fff;
+}
+.github_icon {
+    display: inline-block;
+    width: 30px;
+    height: 34px;
+    background: url(../img/icon-github.png);
+}
+.header_hd .github_icon {
+    position: absolute;
+    right: 15px;
+    bottom: 0; 
+}
+.footer {
+    background-color: #000;
+}
+.footer_hd {
+    padding-top: 10px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.footer_bd {
+    padding-bottom: 90px;
+}
+.link_list {
+    float: left;
+    width: 20%;
+}
+.link_list h2,
+.link_list a {
+    color :#fff;
+}
+.link_list h2 {
+    font-size: 14px;
+}
+.link_list a {
+    text-decoration: underline;
+}
+.footer_ft {
+    text-align: center;
+}
+.footer_ft h2{
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #fff;
+}
+

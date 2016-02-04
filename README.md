@@ -44,7 +44,7 @@
 ## Blog page
 
 ###问题：
--1.display:inline-block空隙问题，搜索栏的另外样式方法
--2.两栏布局常见方式
+- 1.display:inline-block空隙问题，搜索栏的另外样式方法
+- 2.两栏布局常见方式
 
 

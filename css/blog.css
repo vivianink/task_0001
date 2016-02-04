@@ -1,0 +1,130 @@
+.article {
+    margin-top: 20px;
+}
+.article_main {
+    float: left;
+    width: 710px;
+    padding-bottom: 50px;
+}
+.article_list li{
+    position: relative;
+    min-height: 120px;
+    padding: 20px 15px 15px 15px;
+    margin-top: 10px;
+    background: #fff;
+}
+.article_list li:first-child {
+    margin-top: 0;
+}
+.article_title {
+    color: #a660b7;
+    font-size: 16px;
+}
+.article_subtitle {
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 12px;
+}
+.article_bd p {
+    text-indent: 2em;
+}
+.article_ft {
+    margin-top: 30px;
+    text-align: right;
+    color: #999;
+}
+.callout {
+    position: absolute;
+    top: 20px;
+    left: -50px;
+}
+.callout_date, .callout_type {
+    display: block;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+}
+.callout_date {
+    background: #522a5c;
+}
+.callout_type {
+    background: #a660b7;
+}
+.article_page {
+    display: table;
+    margin: 15px auto 0 auto;
+}
+.page_item {
+    display: inline-block;
+    margin-left: 10px;
+}
+.page_item:first-child {
+    margin-left: 0;
+}
+.page_item a {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 15px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    background: #fff;
+}
+.page_item a:hover {
+    color: #fff;
+    background: #a660b7;
+}
+.article_aside {
+    width: 260px;
+    margin-left: 720px;
+}
+.aside_item {
+    margin-top: 10px;
+    box-sizing: border-box;
+    background: #fff;
+}
+.aside_item:first-child {
+    margin-top: 0;
+}
+.aside_search {
+    padding: 20px;
+}
+.aside_search input, button {
+    display: inline-block;
+    height: 40px;
+}
+.aside_search input {
+    width: 170px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    border: 1px solid #ddd;
+    background: url(../img/search_icon.png) no-repeat 5px center;
+}
+.aside_search button {
+    width: 50px;
+    margin-left: -4px;
+    background: #ddd;
+    color: #fff;
+    outline: 0;
+    border: 0;
+}
+.aside_category {
+    background: #fff;
+}
+.cate_item {
+    padding-left: 20px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+    border-left: 5px solid #dfc6e6;
+    cursor: pointer;
+}
+.cate_item:first-child {
+    border-top: 1px solid #fff;
+}
+.cate_item:hover {
+    border-left-color: #522a5c;
+}
+

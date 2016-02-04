@@ -29,15 +29,22 @@
 ```
 
 参数说明：<br/>
-top: 为颜色开始的起点，例如 left top等；或者为颜色渐变的方向，例如 to right；此外还可设置为渐变方向角度，例如 45deg。
-     不设置起点或方向则会形成一个同心圆。<br/>
-颜色值： 可跟多个颜色，且可规定颜色的长度，例如 rgba(255, 255, 255, 0) 25% <br/>
+- top: 为颜色开始的起点，例如 left top等；或者为颜色渐变的方向，例如 to right；此外还可设置为渐变方向角度，例如 45deg。
+     不设置起点或方向则会形成一个同心圆。
+- 颜色值： 可跟多个颜色，且可规定颜色的长度，例如 rgba(255, 255, 255, 0) 25% 
 
 参考资料：
-<p><a href="http://www.w3schools.com/css/css3_gradients.asp" target="_blank">CSS3 Gradients</a></p>
-<p><a href="http://www.75team.com/archives/174" target="_blank">跨浏览器背景色渐变和透明</a></p>
+- <a href="http://www.w3schools.com/css/css3_gradients.asp" target="_blank">CSS3 Gradients</a>
+- <a href="http://www.75team.com/archives/174" target="_blank">跨浏览器背景色渐变和透明</a>
 
 ###余留问题：
 
 ######1. IE中实现渐变透明背景
+
+## Blog page
+
+###问题：
+-1.display:inline-block空隙问题，搜索栏的另外样式方法
+-2.两栏布局常见方式
+
 

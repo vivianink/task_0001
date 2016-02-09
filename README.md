@@ -46,5 +46,7 @@
 ###问题：
 - 1.display:inline-block空隙问题，搜索栏的另外样式方法
 - 2.两栏布局常见方式
+- 3.为啥当侧栏搜索块内两个子元素改为float后，其父框即.aside_search被撑得很高？
+为啥为父元素设置 overflow:hidden后就没事儿了？
 
 

@@ -52,6 +52,7 @@ body{
     bottom: 0; 
 }
 .footer {
+    margin-top: 50px;
     background-color: #000;
 }
 .footer_hd {

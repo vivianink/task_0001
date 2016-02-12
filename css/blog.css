@@ -4,7 +4,6 @@
 .article_main {
     float: left;
     width: 710px;
-    padding-bottom: 50px;
 }
 .article_list li{
     position: relative;
@@ -173,14 +172,30 @@
     text-align: center;
 }
 .aside_keyword {
-    padding: 0 20px 0 20px;
+    padding: 0 20px 35px 20px;
 }
 .keyword_hd {
     padding-top: 12px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     font-size: 14px;
     font-weight: normal;
     color: #666;
 }
-
-
+.aside_keyword li {
+    margin-top: 10px;
+}
+.keyword_item {
+    margin-right: 5px;
+}
+.keyword_item,
+.keyword_item:hover {
+    color: #773c88;
+    font-size: 11px;
+    text-decoration: none;
+}
+.keyword_bigger {
+    font-size: 18px;
+}
+.keyword_biggest {
+    font-size: 22px;
+}

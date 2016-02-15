@@ -105,7 +105,7 @@
             <div class="article_aside">
 
                 <div class="aside_item aside_search">
-                    <form action="get" class="clearfix">
+                    <form action="get" class="clearfix" id="search-box">
                         <input type="text" placeholder="Keywords">
                         <button type="submit">GO</button>
                     </form>
@@ -173,7 +173,7 @@
                 </div>
 
                 <div class="aside_item aside_keyword">
-                    <h3 class="keyword_hd">Tags</h3>
+                    <h3 class="aside_hd">Tags</h3>
                     <ul>
                         <li>
                             <a href="" class="keyword_item keyword_biggest">JavaScript</a>
@@ -277,4 +277,15 @@
         </div>
     </div>
 </body>
+
+<script src="dep/jquery.js"></script>
+<script>
+var inputBox = $('#search-box input');
+inputBox.focus(function(){
+    $(this).parent().addClass('search_focus');
+});
+inputBox.blur(function(){
+    $(this).parent().removeClass('search_focus');
+});
+</script>
 </html>

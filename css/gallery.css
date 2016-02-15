@@ -1,0 +1,128 @@
+.tab_item {
+	float: left;
+	padding: 15px 20px 20px;
+	text-align: center;
+	border-left: 1px solid #ddd;
+	background: #fff;
+	cursor: pointer;
+}
+.tab_item:first-child {
+	border-left: 0;
+}
+.active, 
+.tab_item:hover {
+	background: #ddd;
+}
+.tab_all {
+	border-top: 5px solid #dfc6e6;
+}
+.tab_js {
+	border-top: 5px solid #522a5c;
+}
+.tab_ui {
+	border-top: 5px solid #5900b2;
+}
+.tab_fw {
+	border-top: 5px solid #8c2300;
+}
+.tab_app {
+	border-top: 5px solid #d9a300;
+}
+.tab_bd {
+	padding: 0 20px 30px;
+	margin-top: 20px;
+	background: #fff;
+}
+.waterfall_item {
+	float: left;
+	width: 160px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.waterfall_item img{
+	display: block;
+}
+.waterfall_item:first-child {
+	width: 330px;
+	margin-top: 0;
+	margin-left: 0;
+}
+.waterfall_bd {
+	position: relative;
+	padding: 10px 10px 10px 50px;
+	color: #fff;
+}
+.waterfall_bd h3 {
+	font-weight: normal;
+}
+.waterfall_js .waterfall_bd {
+	background: #522a5c;
+}
+.waterfall_ui .waterfall_bd {
+	background: #5900b2;
+}
+.waterfall_fw .waterfall_bd {
+	background: #8c2300;
+}
+.waterfall_app .waterfall_bd {
+	background: #d9a300;
+}
+.waterfall_bd:before {
+	position: absolute;
+	left: 10px;
+	top: 12px;
+	width: 22px;
+	height: 22px;
+	content: '';
+	border: 1px solid #eee;
+	border-radius: 50%;
+	font-size: 12px;
+	text-align: center;
+	line-height: 22px;
+
+}
+.waterfall_js .waterfall_bd:before {
+	content: 'J';
+}
+.waterfall_ui .waterfall_bd:before {
+	content: 'U';
+}
+.waterfall_fw .waterfall_bd:before {
+	content: 'F';
+}
+.waterfall_app .waterfall_bd:before {
+	content: 'A';
+}
+.aside_rank {
+	padding: 0 10px 40px;
+	overflow: hidden;
+}
+.rank_item {
+	margin-top: 8px;
+}
+.rank_no,
+.rank_bar,
+.rank_name {
+	float: left;
+}
+.rank_no {
+	width: 17px;
+	height: 17px;
+	margin-right: 12px;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	line-height: 17px;
+	background: #522a5c;
+}
+.rank_bar {
+	box-sizing: border-box;
+	width: 102px;
+	height: 18px;
+	margin-right: 12px;
+	border: 1px solid #522a5c;
+}
+.bar_inside{
+	height: 100%;
+	background: #522a5c;
+}

@@ -1,4 +1,4 @@
-html, body, h1, h2, h3, h4, h5, h6, div, p, ul, li, input, form, button, span  {padding: 0; margin: 0;}
+html, body, h1, h2, h3, h4, h5, h6, div, p, ul, ol, li, input, form, button, span, img  {padding: 0; margin: 0;}
 body {
     font: 14px/1.5 '微软雅黑', arial, sans-serif;
 }
@@ -11,6 +11,9 @@ a {
 a:hover {
     color: #fff;
     text-decoration: underline;
+}
+img {
+    border: 0;
 }
 .pull_left {
     float: left;

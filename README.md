@@ -49,4 +49,9 @@
 - 3.为啥当侧栏搜索块内两个子元素改为float后，其父框即.aside_search被撑得很高？
 为啥为父元素设置 overflow:hidden后就没事儿了？
 
+## gallery page
+
+######1.div中的img标签和div产生间隙，设置img:display:block可解决。
+
+
 
